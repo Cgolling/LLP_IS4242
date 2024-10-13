@@ -3,16 +3,23 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 name = "pypi"
 
+[[source]]
+url = "https://download.pytorch.org/whl/cu118"
+verify_ssl = true
+name = "downloadpytorch"
+
 [packages]
 numpy = "*"
 pandas = "*"
 seaborn = "*"
 matplotlib = "*"
 ipykernel = "*"
-torch = "*"
+torch = {version = "*", extras = ["cuda"], extra_index_url = "https://download.pytorch.org/whl/cu118"}
+torchvision = {version = "*", extra_index_url = "https://download.pytorch.org/whl/cu118"}
+torchaudio = {version = "*", extra_index_url = "https://download.pytorch.org/whl/cu118"}
 
 [dev-packages]
 ipykernel = "*"
 
 [requires]
-python_version = "3.12"
+python_version = "3.11"
