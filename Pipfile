@@ -17,6 +17,7 @@ ipykernel = "*"
 torch = {version = "*", extras = ["cuda"], extra_index_url = "https://download.pytorch.org/whl/cu118"}
 torchvision = {version = "*", extra_index_url = "https://download.pytorch.org/whl/cu118"}
 torchaudio = {version = "*", extra_index_url = "https://download.pytorch.org/whl/cu118"}
+requests = "*"
 
 [dev-packages]
 ipykernel = "*"
