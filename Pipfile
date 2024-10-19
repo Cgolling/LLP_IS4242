@@ -18,6 +18,7 @@ torch = {version = "*", extras = ["cuda"], extra_index_url = "https://download.p
 torchvision = {version = "*", extra_index_url = "https://download.pytorch.org/whl/cu118"}
 torchaudio = {version = "*", extra_index_url = "https://download.pytorch.org/whl/cu118"}
 requests = "*"
+scikit-learn = "*"
 
 [dev-packages]
 ipykernel = "*"
