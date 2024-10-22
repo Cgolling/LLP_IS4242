@@ -19,6 +19,8 @@ torchvision = {version = "*", extra_index_url = "https://download.pytorch.org/wh
 torchaudio = {version = "*", extra_index_url = "https://download.pytorch.org/whl/cu118"}
 requests = "*"
 scikit-learn = "*"
+nbformat = "*"
+tqdm = "*"
 
 [dev-packages]
 ipykernel = "*"
